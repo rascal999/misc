@@ -48,7 +48,7 @@ echo "$LAST_FIVE_MODIFIED_DIRS_ABSOLUTE"
 
 JOB_CURRENT_DIR=""
 JOB_CURRENT_DIR=`zenity --list --height 270 --width 400 --text "Last five job directories (by mod time):" \
-  --title="NCC Group Screenshot Tool v0.1" \
+  --title="Rascal999 Screenshot Tool v0.1" \
   --column="Directory" \
    ${LAST_FIVE_MODIFIED_DIRS_ABSOLUTE}`
 
