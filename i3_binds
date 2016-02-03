@@ -1,0 +1,13 @@
+bindsym $mod+t exec urxvt -bg black -fg white -e /usr/bin/tmux
+bindsym $mod+Shift+Return exec trickle -d 350 firefox
+bindsym $mod+Return exec firefox
+bindsym $mod+k exec keepassx
+bindsym $mod+p exec pidgin
+bindsym $mod+c exec chromium
+bindsym $mod+v exec vlc
+bindsym $mod+n exec urxvt -bg black -fg white -e /usr/bin/newsbeuter -r $HOME/.newsbeuter/urls
+bindsym $mod+Shift+v exec VirtualBox
+bindsym $mod+x exec xlock -mode matrix
+bindsym $mod+b exec urxvt -bg black -fg white -vb -e weechat-curses
+bindsym $mod+m exec urxvt -bg black -fg white -vb -e mutt
+bindsym $mod+s exec /work/scripts/screenshot.sh
